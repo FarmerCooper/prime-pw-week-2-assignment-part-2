@@ -172,5 +172,9 @@ if(minAge <= age) {
 } else {
   console.log('enter');
 }
+
+// FIX the console logs are switched around. The else condition's value should be first
+// instead of second
+
 */
 
