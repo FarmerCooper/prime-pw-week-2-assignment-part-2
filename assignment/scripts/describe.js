@@ -26,10 +26,10 @@ if (number >= 2) {
 
 
 // 1. WRITE YOUR DESCRIPTION HERE
-// 
-// 
-// 
-//
+// Declared variable 'name' and set its value to a string -- Dane
+// Created a conditional to check if name is 'Mary'
+// Logged 'Hi, Mary!' if the statement was true; i.e., if name equals 'Mary' in value
+// Logged 'How do you do?' if the statement was false, which is true in this case
 
 //CODE
 /*
@@ -45,10 +45,10 @@ if (name === 'Mary') {
 */
 
 // 2. WRITE YOUR DESCRIPTION HERE
-// 
-// 
-// 
-//
+// Declared a variable called 'code' and set its value to the numerical value of 123
+// Did not set a value to the variable secret, as is declared based on a condition in later code
+// Created a conditional statement to return a value based on the condition input in parenthesis
+// Logged and assigned a value to the variable 'secret'
 
 //CODE
 /*
@@ -70,10 +70,11 @@ console.log(secret)
 */
 
 // 3. WRITE YOUR DESCRIPTION HERE
-// 
-// 
-// 
-//
+// Declared variables and assigned 1 boolean value and two numberical values
+// In the first part of the conditional statement, both statements must be true to return the log
+// or *else* in the second part, if either statement is true, a log is returned
+// The third part, only the value must be true for isStudent to return the log. 
+// If the above statements are not returned, 'How about the weather is logged'
 
 //CODE
 /*
@@ -137,6 +138,9 @@ let mix = true;
 if (mix === true) {
   colorOne = 'purple';
 }
+
+// FIX the description does not match: switch the value declaration of colorOne and colorTwo
+// The code will run fine without this fix, unless further code contradicts
 */
 
 //5. We start with two variables -- temp is set to 40 and time is set to 4.
@@ -150,6 +154,9 @@ const time = 4;
 if (temp > 39 || time >= 4) {
   console.log('throw away the food!');
 }
+
+// FIX should be && instead of || 
+
 */
 
 //6. We start with two variables -- age is set to 21 and minAge is set to 21.
