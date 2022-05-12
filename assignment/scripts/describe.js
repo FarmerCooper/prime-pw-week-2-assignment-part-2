@@ -155,7 +155,7 @@ if (temp > 39 || time >= 4) {
   console.log('throw away the food!');
 }
 
-// FIX should be && instead of || 
+// FIX should be "&&" instead of "||"
 
 */
 
@@ -175,6 +175,7 @@ if(minAge <= age) {
 
 // FIX the console logs are switched around. The else condition's value should be first
 // instead of second
+// JS works top to bottom, on most occassions
 
 */
 
