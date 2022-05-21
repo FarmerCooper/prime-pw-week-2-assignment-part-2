@@ -45,10 +45,14 @@ if (name === 'Mary') {
 */
 
 // 2. WRITE YOUR DESCRIPTION HERE
-// Declared a variable called 'code' and set its value to the numerical value of 123
+// Declared a variable called 'code' and set it to the numerical value of 123
 // Did not set a value to the variable secret, as is declared based on a condition in later code
-// Created a conditional statement to return a value based on the condition input in parenthesis
-// Logged and assigned a value to the variable 'secret'
+// Created a conditional with a truthy statement of the variable code equaling 123
+// Assigned a value to the variable secret of 'super' if prior statement is true
+// In the same conditional statement, code was multiplied by two
+// Created another conditional with a truthy statement of variable 'code' being greater than 250
+// Assigned a value to the varible secret being 'duper' if statement is true
+// Console logged the variable secret, return was 'super'
 
 //CODE
 /*
@@ -70,7 +74,7 @@ console.log(secret)
 */
 
 // 3. WRITE YOUR DESCRIPTION HERE
-// Declared variables and assigned 1 boolean value and two numberical values
+// Declared variable isStduent assigned it a boolean value of true, age set it to numerical value of 34, zip declared a value of 55407
 // In the first part of the conditional statement, both statements must be true to return the log
 // or *else* in the second part, if either statement is true, a log is returned
 // The third part, only the value must be true for isStudent to return the log. 
@@ -139,7 +143,7 @@ if (mix === true) {
   colorOne = 'purple';
 }
 
-// FIX the description does not match: switch the value declaration of colorOne and colorTwo
+// FIX the description does not match the code written; the value of colorOne should be 'blue', while colorTwo should be 'red'
 // The code will run fine without this fix, unless further code contradicts
 */
 
